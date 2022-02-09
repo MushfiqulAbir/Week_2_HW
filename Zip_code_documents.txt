@@ -1,0 +1,8 @@
+zip() function return data in a zip format using tuples. below is a simple zip() code.
+
+description = ("even","Odd","Even","Odd")
+value = (30,35,40,45)
+
+pair = zip(description, value)
+
+print(tuple(pair))
